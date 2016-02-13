@@ -36,7 +36,8 @@ public class Problem1Test extends TestCase{
 
 
 	public void testA() {
-		assertTrue("Testerz", aResult == Problem1.findLast(a, aValue));
+//		assertTrue("Testerz", aResult == Problem1.findLast(a, aValue));
+		assertEquals("Wrong value", bResult, Problem1.findLast(a, aValue));
 	}
 	
 	public void testB() {
