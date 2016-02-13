@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="Testing.group.Problem1Test" time="0.001" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="Testing.group.Problem1Test" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/kyle/Dev/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1821372756605942695.tmp"/>
+    <property name="classworlds.conf" value="/Users/kyle/Dev/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5305478288709900686.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/kyle/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -62,15 +62,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Testing.group.Problem1Test" name="testA" time="0.001">
-    <failure message="Wrong value expected:&lt;1&gt; but was:&lt;0&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Wrong value expected:&lt;1&gt; but was:&lt;0&gt;
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at Testing.group.Problem1Test.testA(Problem1Test.java:40)
-</failure>
-  </testcase>
+  <testcase classname="Testing.group.Problem1Test" name="testA" time="0"/>
   <testcase classname="Testing.group.Problem1Test" name="testB" time="0"/>
   <testcase classname="Testing.group.Problem1Test" name="testC" time="0"/>
 </testsuite>
